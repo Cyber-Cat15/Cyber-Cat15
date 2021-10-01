@@ -1,12 +1,12 @@
 from turtlr import *
 
 bgcolor("black")
-speed(0)
+speed(3)
 
 for i in range(7):
     for color in ('red','cyan','white','magenta','yellow','purple'):
         color(color)
-        circle(100)
+        circle(120)
         right(10)
         
 hideturtle()
